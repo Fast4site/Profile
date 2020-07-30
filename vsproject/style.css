@@ -1,0 +1,110 @@
+.lap{
+    background-color: antiquewhite;/*Header*/
+}
+
+.list ul li {       /*Header items*/
+    list-style: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.list h1{
+    font-size: 25px;
+}
+
+.rig{                      /*Menu*/
+    float: right;
+    margin-top: -50px;
+    
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 25px;
+    
+} 
+.rig  a{
+    text-decoration: none;
+}
+
+.rig a:hover{
+    text-decoration: underline;
+    color:red;
+
+}
+
+@media(max-device-width:480px){    /*mobile view*/
+    nav ul li{
+        display:none;
+    }
+}
+.middle{                    /*Mobile Image*/
+    text-align: center;
+    margin-top: 5%;
+}
+.middle ul li{
+    list-style: none;
+    display: inline-block;
+}
+.shift{                   /*price*/
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Box span{          /*button*/
+ background-color: blue;
+ font-size: 25px;
+ font-weight: bold;
+ font-family: 'Times New Roman', serif;
+}
+.Box span:hover{
+    background-color: violet;
+    text-align: center;
+}
+.Box{
+    text-align: center;
+    margin-top: 20px;;
+    color:white;
+}
+.Box span{
+    padding:10px 8px;
+    border-radius: 0.2em;
+}
+
+.Box span a{
+    color: white;
+}
+
+.Box a{
+    text-decoration: none;
+}
+
+
+.text{           /*paragraph*/
+    
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+ 
+td,th{
+    padding:15px;
+}
+
+.pop td{
+    padding:5px;
+    
+}
+
+.col{     /*Footer*/
+    background-color: black;
+    color:white;
+}
+.col ul li{
+    list-style: none;
+    display: inline-block;
+    padding:45px;
+}
+.col ul li{
+    padding-left: 54px;
+}
